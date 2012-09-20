@@ -1,0 +1,98 @@
+body {
+    /*background-image:url('../img/eggshell.jpg');*/
+    background-image:url('../img/texture.png');
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    color: #444 ;
+    background-color: #FBFAF6;
+}
+
+.container {
+    width:860px;
+    margin:0px auto;
+}
+
+.page-header {
+    height:auto;
+    width:100%;
+    padding-top:20px;
+    margin:30px auto 30px auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border-bottom: 3px solid #5B8B7F;
+}
+
+.page-header h1 {
+    padding-top:10px 0px 0px 0px;
+    font-size: 3.5em;
+    display:inline;
+    /*text-shadow: 0px 2px 0px #fefefe;*/
+    margin-left:10px;
+    font-weight:normal;
+    /*text-transform:uppercase;*/
+    }
+    
+.page-header h2 {
+    display:inline;
+    font-weight:normal;
+    padding: 0px 20px;
+    font-size:1.7em;
+    color:#5B8B7F;
+    text-transform:lowercase;
+    font-style:italic;
+}
+
+a {
+    color:#5B8B7F;
+}
+
+
+footer {
+    width:100%;
+    height: auto;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin:30px auto 0px auto;
+    border-top: 3px solid #5B8B7F;
+}
+
+footer img {
+    margin:0px;
+    padding:0px;
+}
+
+.footer-text, .footer-text a {
+    vertical-align: top;
+    font-size: 11px;
+    padding-right: 20px;
+}
+
+#jstwitter{width:auto;margin:0px auto;}
+
+#jstwitter .tweet{
+    width:240px;
+    margin:8px;
+    padding:15px;
+    float:left;
+    background-color:#fff;
+    -moz-box-shadow: 2px 2px 3px 2px #ccc;
+    -webkit-box-shadow: 1px 1px 2px 1px #ccc;
+    box-shadow: 0px 1px 2px 1px #ccc;
+     line-height:140%;
+    }
+
+
+
+#jstwitter img {margin-bottom:10px;width:100%;}
+
+#jstwitter .tweet a{text-decoration:none;}
+
+#jstwitter .tweet a:hover{text-decoration:underline;}
+
+#jstwitter .tweet .time{margin-top:8px;}
+
+#jstwitter .tweet .tweet-user{font-size:12px;font-weight:bold;color:#666666;margin-bottom:8px;}
+
+#jstwitter .tweet .time-text{font-size:11px;font-style:italic;color:#666666;vertical-align:top;}
+
+
